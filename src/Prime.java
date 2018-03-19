@@ -17,6 +17,7 @@ public class Prime {  //Inputs a number and checks if it is prime
                 run = false;
             }
         }
+        in.close();
     }
 
     private static boolean isPrime(int n) {
